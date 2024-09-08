@@ -1,3 +1,0 @@
-/home/tunay/Documents/csnake/build/CMakeFiles/connect_four.dir
-/home/tunay/Documents/csnake/build/CMakeFiles/edit_cache.dir
-/home/tunay/Documents/csnake/build/CMakeFiles/rebuild_cache.dir
