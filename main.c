@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include "include/choice_matrix.h"
+#include "include/playrs.h"
 
 int main() {
+  info *Info_Playrsl;
+
   int choice;
+  
   printf("choice matrix\n");
   printf("1. 7x6\n 2. 8x7\n 3. 8x8\n 3. 9x7\n 4. 9x9\n");
 
@@ -26,5 +30,6 @@ int main() {
   default:
     break;
   }
+  name_playrs(Info_Playrsl);
   return 0;
 }
