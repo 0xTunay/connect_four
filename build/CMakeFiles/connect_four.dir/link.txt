@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/connect_four.dir/connect_four.c.o -o connect_four
