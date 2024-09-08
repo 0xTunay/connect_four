@@ -6,10 +6,12 @@ set(CMAKE_C_STANDARD 99)
 
 set(SRC
     src/choice_matrix.c
+    src/playrs.c
 
 )
 set(INCLUDE
     include/choice_matrix.h
+    include/playrs.h
 )
 
 add_library(core
