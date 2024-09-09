@@ -32,17 +32,18 @@ void choice_symbol(info *Info_Playrsl)
     puts("Who choice? 1 or 2");
     scanf("%d",&x);
 
-    if(x == 1){
-    printf("Choice symbol, * or 0 %s",Info_Playrsl->first_player);
-    scanf("%s",Info_Playrsl->symbol_for_first);
+    if(x == 1)
+    {
+        printf("Choice symbol, x or 0 %s",Info_Playrsl->first_player);
+        scanf("%s",Info_Playrsl->symbol_for_first);
 
     if(strcmp(Info_Playrsl->first_player,"*")== 0)
-        strcpy(Info_Playrsl->seconect_playr,"0");
+        strcpy(Info_Playrsl->symbol_for_first,"0");
     } else {
         printf("Choice symbol, * or 0 %s",Info_Playrsl->seconect_playr);
-    scanf("%s",Info_Playrsl->seconect_playr);
+        scanf("%s",Info_Playrsl->symbol_for_second);
 
-    if(strcmp(Info_Playrsl->seconect_playr,"*")== 0)
-        strcpy(Info_Playrsl->first_player,"0");
+    if(strcmp(Info_Playrsl->symbol_for_second,"*")== 0)
+        strcpy(Info_Playrsl->symbol_for_first,"0");
     }
 }

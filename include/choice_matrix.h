@@ -2,6 +2,9 @@
 #define CHOICE_MATRIX_H
 
 
+const int HIGHT = 6;
+const int WEGHT = 7;
+
 void print_matrix_6x7();
 void print_matrix_8x7();
 void print_matrix_8x8();

@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 #include "../include/choice_matrix.h"
 
 void print_matrix_6x7(){
-    const int HIGHT = 6;
-    const int WEGHT = 7;
+
     char matrix[HIGHT][WEGHT];
 
     int count = 1;
@@ -30,8 +30,6 @@ void print_matrix_6x7(){
 }
 
 void print_matrix_8x7(){
-    const int HIGHT = 8;
-    const int WEGHT = 7;
     char matrix[HIGHT][WEGHT];
 
     int count = 1;
@@ -57,10 +55,7 @@ void print_matrix_8x7(){
     }
 }
 
-// Аналогично для остальных функций:
 void print_matrix_8x8(){
-    const int HIGHT = 8;
-    const int WEGHT = 8;
     char matrix[HIGHT][WEGHT];
 
     int count = 1;
@@ -87,8 +82,6 @@ void print_matrix_8x8(){
 }
 
 void print_matrix_9x7(){
-    const int HIGHT = 9;
-    const int WEGHT = 7;
     char matrix[HIGHT][WEGHT];
 
     int count = 1;
@@ -115,8 +108,6 @@ void print_matrix_9x7(){
 }
 
 void print_matrix_9x9(){
-    const int HIGHT = 9;
-    const int WEGHT = 9;
     char matrix[HIGHT][WEGHT];
 
     int count = 1;
