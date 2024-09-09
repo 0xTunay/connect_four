@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/connect_four.dir/main.c.o -o /home/tunay/Documents/connect_four/connect_four  libcore.a

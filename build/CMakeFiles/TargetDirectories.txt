@@ -1,0 +1,4 @@
+/home/tunay/Documents/connect_four/build/CMakeFiles/core.dir
+/home/tunay/Documents/connect_four/build/CMakeFiles/connect_four.dir
+/home/tunay/Documents/connect_four/build/CMakeFiles/edit_cache.dir
+/home/tunay/Documents/connect_four/build/CMakeFiles/rebuild_cache.dir

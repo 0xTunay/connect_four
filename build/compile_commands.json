@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/tunay/Documents/connect_four/build",
+  "command": "/usr/bin/gcc -g -std=gnu99 -o CMakeFiles/core.dir/src/choice_matrix.c.o -c /home/tunay/Documents/connect_four/src/choice_matrix.c",
+  "file": "/home/tunay/Documents/connect_four/src/choice_matrix.c",
+  "output": "CMakeFiles/core.dir/src/choice_matrix.c.o"
+},
+{
+  "directory": "/home/tunay/Documents/connect_four/build",
+  "command": "/usr/bin/gcc -g -std=gnu99 -o CMakeFiles/core.dir/src/playrs.c.o -c /home/tunay/Documents/connect_four/src/playrs.c",
+  "file": "/home/tunay/Documents/connect_four/src/playrs.c",
+  "output": "CMakeFiles/core.dir/src/playrs.c.o"
+},
+{
+  "directory": "/home/tunay/Documents/connect_four/build",
+  "command": "/usr/bin/gcc -g -std=gnu99 -o CMakeFiles/core.dir/src/game.c.o -c /home/tunay/Documents/connect_four/src/game.c",
+  "file": "/home/tunay/Documents/connect_four/src/game.c",
+  "output": "CMakeFiles/core.dir/src/game.c.o"
+},
+{
+  "directory": "/home/tunay/Documents/connect_four/build",
+  "command": "/usr/bin/gcc -g -std=gnu99 -o CMakeFiles/connect_four.dir/main.c.o -c /home/tunay/Documents/connect_four/main.c",
+  "file": "/home/tunay/Documents/connect_four/main.c",
+  "output": "CMakeFiles/connect_four.dir/main.c.o"
+}
+]

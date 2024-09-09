@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore.a CMakeFiles/core.dir/src/choice_matrix.c.o CMakeFiles/core.dir/src/playrs.c.o CMakeFiles/core.dir/src/game.c.o
+/usr/bin/ranlib libcore.a
