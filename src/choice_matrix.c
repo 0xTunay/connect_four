@@ -1,30 +1,35 @@
 #include <stdio.h>
-#include "../include/choice_matrix.h"
 
 void print_matrix(int height, int width) {
     char matrix[height][width];
 
-    int count = 1;
-    for (int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++) {
-            if (i == 0 || i == height - 1 || j == 0 || j == width - 1) {
-                matrix[i][j] = '0' + count;
-                count++;
-                if (count > 9) {
-                    count = 1;
-                }
-            } else {
-                matrix[i][j] = ' ';
-            }
+    int i, j;
+
+    for (i = 0; i < height; i++) {
+        for (j = 0; j < width; j++) {
+            matrix[i][j] = ' ';
         }
     }
 
-    for (int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++) {
-            printf("%c ", matrix[i][j]);
+    for (i = 0; i < height; i++) {
+        for (j = 0; j < width; j++) {
+            printf(" %c ", matrix[i][j]);
+            if (j < width - 1) {
+                printf("|");
+            }
         }
         printf("\n");
+        if (i < height - 1) {
+            for (j = 0; j < width; j++) {
+                printf("---");
+                if (j < width - 1) {
+                    printf("+");
+                }
+            }
+            printf("\n");
+        }
     }
+    printf("\n");
 }
 
 void print_matrix_6x7() {
