@@ -34,16 +34,18 @@ void choice_symbol(info *Info_Playrsl)
 
     if(x == 1)
     {
-        printf("Choice symbol, x or 0 %s",Info_Playrsl->first_player);
+        printf("Choice symbol, X or 0 %s",Info_Playrsl->first_player);
         scanf("%s",Info_Playrsl->symbol_for_first);
 
-    if(strcmp(Info_Playrsl->first_player,"*")== 0)
+    if(strcmp(Info_Playrsl->first_player,"X")== 0)
         strcpy(Info_Playrsl->symbol_for_first,"0");
-    } else {
-        printf("Choice symbol, * or 0 %s",Info_Playrsl->seconect_playr);
+    } 
+    else 
+    {
+        printf("Choice symbol, X or 0 %s",Info_Playrsl->seconect_playr);
         scanf("%s",Info_Playrsl->symbol_for_second);
 
-    if(strcmp(Info_Playrsl->symbol_for_second,"*")== 0)
+    if(strcmp(Info_Playrsl->symbol_for_second,"X")== 0)
         strcpy(Info_Playrsl->symbol_for_first,"0");
     }
 }

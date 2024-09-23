@@ -27,10 +27,3 @@ To win the game, a player must align four of their symbols in a row vertically. 
 ## Example
 
 Here's an example of a game grid where the player with symbol `*` has won by connecting four symbols vertically:
-
-### Todo 
-<ul>
-    <li>Add 3 matrix for choice ⏳</li> 
-    <li>Symbol selection⏳</li>
-
-</ul>
