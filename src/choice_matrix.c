@@ -1,19 +1,18 @@
 #include <stdio.h>
-
+#include "../include/playrs.h"
 void print_matrix(int height, int width) {
-    char matrix[height][width];
 
+    info *playrs; 
     int i, j;
 
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
-            matrix[i][j] = ' ';
+            playrs->matrix[i][j] = ' ';
         }
     }
-
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
-            printf(" %c ", matrix[i][j]);
+            printf(" %c ", playrs->matrix[i][j]);
             if (j < width - 1) {
                 printf("|");
             }
